@@ -1,10 +1,14 @@
-//Coding Just for Fun...
+// Coding Just for Fun...
 /* PKC Bharat
 Priyanshu Sharma */
 #include <iostream>
 using namespace std;
 int main()
 {
-    cout<<"Hello World!"<<endl;
+    int dob;
+    cout << "Hello World!" << endl;
+    cout << "Enter your Date of Birth: " << endl;
+    cin >> dob;
+    cout << "Your Date of Birth is: " << dob << endl;
     return 0;
 }
